@@ -10,7 +10,8 @@ install:
   - poetry develop
 
 script:
-  - pytest
+  - poetry run pytest
+  - poetry run mypy final_class.py
 
 notifications:
   email:

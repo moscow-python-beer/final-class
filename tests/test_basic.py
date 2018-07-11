@@ -16,3 +16,9 @@ def test_is_the_same_class(regular_class):
 def test_is_instancable(final_class):
     """Ensures that we can still creates instances for this class."""
     assert isinstance(final_class(), final_class)
+
+
+def test_has_attributes(final_class):
+    """Ensures that we still have declared attributes."""
+    assert final_class.regular_value == 1
+    assert final_class().regular_value == 1
