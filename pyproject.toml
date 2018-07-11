@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "final-class"
-version = "0.0.1"
+version = "0.1.0"
 description = "Final classes for Python 3"
 authors = ["sobolevn <mail@sobolevn.me>"]
 license = "MIT"

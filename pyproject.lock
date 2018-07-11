@@ -446,9 +446,9 @@ python-versions = "*"
 version = "1.1.0"
 
 [metadata]
-content-hash = "ad4e038ef7fbec52e4711f065d7654c00bbb26ca3dd12424b9ada5f5fd41a942"
+content-hash = "6112aa1d655de0986f6dd36d161d9fb02b13b9779d2a1e43a8147e4349ea4c61"
 platform = "*"
-python-versions = "^3.6"
+python-versions = "^3.6 || ^3.7"
 
 [metadata.hashes]
 apipkg = ["37228cda29411948b422fae072f57e31d3396d2ee1c9783775980ee9c9990af6", "58587dd4dc3daefad0487f6d9ae32b4542b185e1c36db6993290e7c41ca2b47c"]
