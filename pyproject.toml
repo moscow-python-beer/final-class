@@ -1,16 +1,16 @@
 [tool.poetry]
 name = "final-class"
-version = "0.1.1"
+version = "0.1.2"
 description = "Final classes for Python 3"
 authors = ["sobolevn <mail@sobolevn.me>"]
 license = "MIT"
 
 readme = "README.md"
 
-repository = "https://github.com/wemake-services/final-class"
-homepage = "https://github.com/wemake-services/final-class"
+repository = "https://github.com/moscow-python-beer/final-class"
+homepage = "https://github.com/moscow-python-beer/final-class"
 
-keywords = ["mimesis", "pytest", "testing"]
+keywords = ["oop", "oop-principles", "final-classes"]
 
 [tool.poetry.dependencies]
 python = "^3.6 || ^3.7"
