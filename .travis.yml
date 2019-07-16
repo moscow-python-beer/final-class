@@ -5,10 +5,13 @@ python:
   - 3.6
   - 3.7
 
+before_install:
+  - pip freeze | xargs pip uninstall -y
+  - curl -sSL "https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py" | python
+  - source "$HOME/.poetry/env"
+
 install:
-  - pip install poetry
-  - poetry install
-  - poetry develop
+  - poetry install --no-interaction --no-ansi
 
 script:
   - poetry run flake8 .
