@@ -16,7 +16,7 @@ install:
 script:
   - poetry run flake8 .
   - poetry run pytest
-  - poetry run mypy final_class.py
+  - poetry run mypy final_class
   - poetry check
   - poetry run pip check
   - poetry run safety check --bare --full-report
