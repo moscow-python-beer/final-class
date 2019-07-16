@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "final-class"
-version = "0.1.2"
+version = "0.1.3"
 description = "Final classes for Python 3"
 authors = ["sobolevn <mail@sobolevn.me>"]
 license = "MIT"
@@ -10,28 +10,32 @@ readme = "README.md"
 repository = "https://github.com/moscow-python-beer/final-class"
 homepage = "https://github.com/moscow-python-beer/final-class"
 
-keywords = ["oop", "oop-principles", "final-classes"]
+keywords = [
+    "oop",
+    "oop-principles",
+    "final-classes",
+    "wemake.services",
+    "final",
+    "final classes",
+    "typing"
+]
 
 [tool.poetry.dependencies]
-python = "^3.6 || ^3.7"
+python = "^3.6"
+typing_extensions = "^3.7"
 
 [tool.poetry.dev-dependencies]
 pytest-isort = "^0.2.0"
 pytest-flake8 = "^1.0"
 pytest-randomly = "^1.2"
 pytest-cov = "^2.5"
-flake8-builtins = "^1.4"
-flake8-commas = "^2.0"
-flake8-quotes = "^1.0"
-flake8-pep3101 = "^1.2"
-flake8-comprehensions = "^1.4"
-flake8-blind-except = "^0.1.1"
-flake8-docstrings = "^1.3"
-flake8-string-format = "^0.2.3"
-flake8-coding = "^1.3"
-flake8-module-name = "^0.1.5"
-flake8-bugbear = "^18.2"
+
+wemake-python-styleguide = "^0.10"
 flake8-pytest = "^1.3"
-pep8-naming = "^0.7.0"
-flake8 = "^3.5"
-mypy = "^0.610.0"
+
+mypy = "^0.720"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

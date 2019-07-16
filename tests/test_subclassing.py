@@ -6,7 +6,7 @@ import pytest
 def test_subclassing_final(final_class):
     """Ensures that we can not subclass a final class."""
     with pytest.raises(
-        TypeError, message='Subclassing final classes is restricted',
+        TypeError, match='Subclassing final classes is restricted',
     ):
         class Child(final_class):
             fail = 0
