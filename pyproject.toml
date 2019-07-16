@@ -25,7 +25,7 @@ python = "^3.6"
 typing_extensions = "^3.7"
 
 [tool.poetry.dev-dependencies]
-pytest-randomly = "^1.2"
+pytest-randomly = "^3.0"
 pytest-cov = "^2.5"
 
 wemake-python-styleguide = "^0.10"
