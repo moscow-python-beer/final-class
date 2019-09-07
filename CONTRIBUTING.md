@@ -8,7 +8,6 @@ To install them you would need to run two commands:
 
 ```bash
 poetry install
-poetry develop
 ```
 
 ## Tests
@@ -20,6 +19,12 @@ To run all tests:
 pytest
 ```
 
+To run linting:
+
+```bash
+flake8 .
+```
+
 Make sure you have followed all the steps before submitting your PR.
 
 
@@ -27,11 +32,11 @@ Make sure you have followed all the steps before submitting your PR.
 
 Before submitting your code please do the following steps:
 
-1. Run `pytest` to make sure everything was working before
+1. Run `pytest` and `flake8` to make sure everything was working before
 2. Add any changes you want
 3. Adds tests for the new changes
 4. Edit documentation if you have changed something significant
-5. Run `pytest` again to make sure it is still working
+5. Run `pytest` and `flake8` again to make sure it is still working
 
 
 ## Other help

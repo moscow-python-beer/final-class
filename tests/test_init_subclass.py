@@ -29,5 +29,5 @@ def test_preserves_hook():
 def test_no_subclasses():
     """Ensures that subclasses are still restricted."""
     with pytest.raises(TypeError):
-        class Child(UsingHook):
+        class Child(UsingHook):  # noqa: WPS431
             check = False

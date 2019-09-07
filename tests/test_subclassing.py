@@ -8,16 +8,16 @@ def test_subclassing_final(final_class):
     with pytest.raises(
         TypeError, match='Subclassing final classes is restricted',
     ):
-        class Child(final_class):
+        class Child(final_class):  # noqa: WPS431
             fail = 0
 
 
 def test_subclassing_final_as_mixin(final_class, regular_class):
     """Ensures that we can not use a final class as a mixin."""
     with pytest.raises(TypeError):
-        class Child(final_class, regular_class):
+        class Child(final_class, regular_class):  # noqa: WPS431
             fail = 0
 
     with pytest.raises(TypeError):
-        class OtherChild(regular_class, final_class):
+        class OtherChild(regular_class, final_class):  # noqa: WPS431
             fail = 0

@@ -10,7 +10,7 @@ Final classes for `python3.6+`.
 - No metaclass conflicts
 - No runtime overhead
 - No dependencies
-- Type hints included
+- Type hints included, [PEP-591](https://www.python.org/dev/peps/pep-0591/) and [PEP561](https://www.python.org/dev/peps/pep-0561/) compatible
 - Designed to be as simple as possible
 
 
@@ -50,6 +50,12 @@ class Example(object):  # You won't be able to subclass it!
 class Error(Example):  # Raises `TypeError`
     ...
 ```
+
+## More?
+
+Do you want more? Check out:
+
+- [1-minute guide to real constants in Python](https://sobolevn.me/2018/07/real-python-contants)
 
 
 ## License

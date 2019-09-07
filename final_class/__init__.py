@@ -2,6 +2,6 @@
 
 from final_class.final_class import final
 
-__all__ = (  # noqa: Z410
+__all__ = (  # noqa: WPS410
     'final',
 )
