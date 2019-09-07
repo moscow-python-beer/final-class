@@ -28,6 +28,8 @@ public final class SomeClass {
 In `python` we don't have such feature out of the box.
 That's where `final_class` library comes in!
 
+This package works perfectly with `@final` from `typing`.
+So, with `final_class` you will have both type-checking and runtime checks.
 
 ## Installation
 
