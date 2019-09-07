@@ -10,7 +10,7 @@ Final classes for `python3.6+`.
 - No metaclass conflicts
 - No runtime overhead
 - No dependencies
-- Type hints included, [PEP-591](https://www.python.org/dev/peps/pep-0591/) and [PEP561](https://www.python.org/dev/peps/pep-0561/) compatible
+- Type hints included, [PEP-561](https://www.python.org/dev/peps/pep-0561/) and [PEP-591](https://www.python.org/dev/peps/pep-0591/) compatible
 - Designed to be as simple as possible
 
 
