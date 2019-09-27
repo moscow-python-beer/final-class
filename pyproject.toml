@@ -39,7 +39,7 @@ flake8-pytest-style = "^0.1.3"
 flake8-pyi = "^19.3"
 nitpick = "^0.21.1"
 
-mypy = "^0.720"
+mypy = "^0.730"
 safety = "^1.8"
 
 
