@@ -29,7 +29,7 @@ python = "^3.6"
 typing_extensions = "^3.7"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = "^5.3"
 pytest-randomly = "^3.1"
 pytest-cov = "^2.8"
 
