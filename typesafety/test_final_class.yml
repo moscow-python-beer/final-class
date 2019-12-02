@@ -1,0 +1,13 @@
+- case: join_final_type
+  disable_cache: true
+  main: |
+    from final_class import final
+
+    @final
+    class Some(object):
+        ...
+
+    class Other(Some):
+        ...
+  out: |
+    main:7: error: Cannot inherit from final class "Some"
