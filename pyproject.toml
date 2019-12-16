@@ -32,7 +32,7 @@ typing_extensions = "^3.7"
 pytest = "^5.3"
 pytest-randomly = "^3.1"
 pytest-cov = "^2.8"
-pytest-mypy-plugins = "^1.1"
+pytest-mypy-plugins = "^1.2"
 
 wemake-python-styleguide = "^0.13.3"
 flake8-pytest = "^1.3"
