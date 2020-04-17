@@ -14,3 +14,8 @@ First semantic release.
 ### Misc
 
 - Updates `wemake-python-styleguide`
+
+
+## Version 0.1.0
+
+- Initial release
