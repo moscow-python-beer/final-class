@@ -42,7 +42,7 @@ flake8-pyi = "^19.3"
 nitpick = "^0.22.1"
 
 mypy = "^0.770"
-safety = "^1.8"
+safety = "^1.9"
 
 
 [build-system]
