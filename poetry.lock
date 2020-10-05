@@ -719,7 +719,7 @@ description = "pytest plugin for writing tests for mypy plugins"
 name = "pytest-mypy-plugins"
 optional = false
 python-versions = ">=3.6"
-version = "1.4.0"
+version = "1.5.0"
 
 [package.dependencies]
 decorator = "*"
@@ -984,7 +984,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "5bec299f77b9f5fc0f3bf329cccaf01b3c534598e5baf076be798ed539427ec1"
+content-hash = "1dc0e5df090e42c9d41828bbb9e2132e75995ca5c1dd5e8e6637ca08e5100195"
 lock-version = "1.0"
 python-versions = "^3.6"
 
@@ -1271,8 +1271,8 @@ pytest-cov = [
     {file = "pytest_cov-2.10.1-py2.py3-none-any.whl", hash = "sha256:45ec2d5182f89a81fc3eb29e3d1ed3113b9e9a873bcddb2a71faaab066110191"},
 ]
 pytest-mypy-plugins = [
-    {file = "pytest-mypy-plugins-1.4.0.tar.gz", hash = "sha256:f1a1d34bf01cb6d8bf455409ed4e391c0b2f0a64cb0f6e743db975bcafcc8cf2"},
-    {file = "pytest_mypy_plugins-1.4.0-py3-none-any.whl", hash = "sha256:baa43948e9873220876fae86dbefc69727803b2df8c20f8164ff0be9823e91d7"},
+    {file = "pytest-mypy-plugins-1.5.0.tar.gz", hash = "sha256:bd76959cbd34765ad350bac7c0c923276dff59ffebbd66bb4becc95baa0e600f"},
+    {file = "pytest_mypy_plugins-1.5.0-py3-none-any.whl", hash = "sha256:ce569074d8b9ce8a84cebaf9e7859399f238b1d3fd19dc4643eb41b2d60d7dc4"},
 ]
 pytest-randomly = [
     {file = "pytest-randomly-3.4.1.tar.gz", hash = "sha256:5fd0dbeeb218a7ce029690a8100453cd8d6a7972cf9d8e657690352692e92c69"},
