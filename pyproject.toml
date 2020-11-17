@@ -31,7 +31,7 @@ typing_extensions = "^3.7"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1"
-pytest-randomly = "^3.4"
+pytest-randomly = "^3.5"
 pytest-cov = "^2.10"
 pytest-mypy-plugins = "^1.6"
 
